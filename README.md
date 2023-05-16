@@ -1,10 +1,4 @@
-# Typescript template for Bitburner's Remote File API
-
-The official template for synchronizing Typescript/Javascript from your computer to the game.
-
-[Step by step install](BeginnersGuide.md)
-
-[Learn more about Typescript](https://www.typescriptlang.org/docs/)
+## This is a copy of the official Bitburner template for exporting the game scripts
 
 ## About
 
@@ -15,11 +9,10 @@ Due to the usage of the RFA system, it works with Web and Electron versions of t
 
 [Node.js](https://nodejs.org/en/download/) is needed for compiling typescript and installing dependencies
 
-[See here for step by step installation](BeginnersGuide.md) if you'd like help with installing Node and/or connecting to the game.
-
 ## Quick start
 
 Download the template to your computer and install everything it requires:
+
 ```
 git clone https://github.com/bitburner-official/typescript-template
 cd typescript-template
@@ -39,6 +32,7 @@ in the Remote API section of the game settings, and press the connect button.
 [See here for step by step installation](BeginnersGuide.md) if you'd like help with installing Node and/or connecting to the game.
 
 ## Advanced
+
 ### Imports
 
 To ensure both the game and typescript have no issues with import paths, your import statements should follow a few formatting rules:
