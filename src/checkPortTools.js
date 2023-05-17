@@ -16,5 +16,5 @@ export async function main(ns) {
     if (ns.fileExists("SQLInject.exe")) {
         portTools++;
     }
-    ns.write('portTools.txt', portTools, 'w')
+    ns.write('portTools.txt', portTools, 'w');
 }
