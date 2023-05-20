@@ -7,7 +7,6 @@ export async function main(ns) {
     const portTools = ns.peek(2);
     const servers = ns.read('servers.txt').split('\n');
     const rooted = [];
-    ns.hack()
     ns.run('setTargetServer.js')
     await ns.sleep(1000)
     const targetServer = ns.peek(3);
