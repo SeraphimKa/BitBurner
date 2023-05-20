@@ -1,8 +1,8 @@
 /** @param {NS} ns */
 export async function main(ns) {
-    if (ns.args[0] && ns.args[1]) {
-        const portTools = Number(ns.args[0])
-        const server = ns.args[1]
+    if (ns.args) {
+        const portTools = Number(ns.peek(2))
+        const server = ns.args[0]
 
         if (portTools >= 1)
             ns.brutessh(server)
