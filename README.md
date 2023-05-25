@@ -7,8 +7,8 @@ https://github.com/bitburner-official/typescript-template
 
 ## Scripts
 
-All scripts are in the /src folder
+All scripts are located in the /src folder
 
-## Prerequisites
+## Prerequisites to run with Remote API
 
-[Node.js](https://nodejs.org/en/download/) is required for compiling typescript and installing dependencies
+[Node.js](https://nodejs.org/en/download/)
